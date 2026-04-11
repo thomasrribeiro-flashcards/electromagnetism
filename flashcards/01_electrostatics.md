@@ -1,5 +1,6 @@
 +++
 order = 1
+subject = "Physics"
 tags = ["electromagnetism", "electrostatics", "coulomb", "electric-field", "superposition"]
 +++
 
