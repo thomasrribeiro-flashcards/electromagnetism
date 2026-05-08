@@ -35,6 +35,17 @@ A: The divergence theorem replaces the surface integral with a volume integral: 
 Q: What does the statement "$\nabla\cdot\mathbf{E} = \rho/\varepsilon_0$" say physically about the structure of the electric field?
 A: The divergence at a point measures how much field is "flowing out" of that point. Where positive charge sits ($\rho > 0$), the field has a positive divergence — field lines are born there. Where negative charge sits, field lines die. In empty space, $\rho = 0$ and the field is divergence-free — no field lines created or destroyed.
 
+## 2.3a Reverse-Direction Cards
+
+Q: Given the equation $\nabla\cdot\mathbf{E} = \rho/\varepsilon_0$, what does it physically express?
+A: Electric field lines originate at positive charge ($\rho > 0$) and terminate at negative charge ($\rho < 0$); empty space is divergence-free.
+
+Q: Given the equation $\oint_S \mathbf{E}\cdot d\mathbf{A} = Q_{\text{enc}}/\varepsilon_0$, what is its name and what does it state?
+A: Gauss's law (integral form) — net electric flux through any closed surface is proportional to the enclosed charge.
+
+Q: When you see the constant $1/\varepsilon_0$ on the right-hand side of a field equation, what does it indicate?
+A: A SI-unit-system relation between electric quantities (flux, divergence) and charge sources.
+
 ## 2.4 Using Symmetry with Gauss's Law
 
 Q: Why is Gauss's law a powerful calculational tool only when a symmetry picks out the direction of $\mathbf{E}$?
@@ -82,6 +93,20 @@ Q: Why is the electric field inside the bulk of a conductor in electrostatic equ
 A: If $\mathbf{E}$ were nonzero inside a conductor, the free charges would feel a force and move — violating the assumption of electrostatic equilibrium. Charges redistribute themselves until they cancel any interior field, which happens when excess charge lies only on the surface and arranges itself to shield the interior.
 
 C: In electrostatic equilibrium, the electric field inside a conductor is [zero], and any excess charge resides on the [surface].
+
+## 2.9a Pattern Recognition: When to Use Gauss's Law
+
+Q: A problem describes a spherically symmetric charge distribution and asks for $\mathbf{E}$. What technique?
+A: Gauss's law with a spherical Gaussian surface centered on the symmetry point.
+
+Q: A problem describes an infinite line/cylinder of charge. What technique?
+A: Gauss's law with a coaxial cylindrical Gaussian surface (flux only through the curved side).
+
+Q: A problem describes an infinite plane or slab of charge. What technique?
+A: Gauss's law with a pillbox straddling the plane (flux only through the two faces).
+
+Q: A problem describes a finite, asymmetric charge distribution. Should you use Gauss's law?
+A: No — Gauss's law gives only one scalar equation; without symmetry it cannot solve for $\mathbf{E}$. Use Coulomb's law / superposition integral instead.
 
 ## 2.10 Field Outside a Charged Sphere — P:/S:
 
