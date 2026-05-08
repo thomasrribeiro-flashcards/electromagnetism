@@ -49,6 +49,20 @@ C: Magnetic field inside an ideal solenoid: $B = [\mu_0 n I]$, with $n$ the numb
 Q: Why is the field outside an ideal (infinite) solenoid exactly zero?
 A: The symmetry of the infinite solenoid makes the exterior field independent of radius, and it must vanish at infinity, so it must be zero everywhere outside. More physically: the azimuthal currents create a field that fully "leaks out" only through the ends — which are at infinity for an ideal solenoid, leaving the exterior field zero.
 
+## 8.5a Pattern Recognition: When to Use Ampère's Law
+
+Q: A problem describes a long straight wire and asks for $\mathbf{B}$. What technique?
+A: Ampère's law with a circular Amperian loop coaxial with the wire — azimuthal symmetry collapses the line integral.
+
+Q: A problem describes a long solenoid or toroid. What technique?
+A: Ampère's law with a rectangular (solenoid) or circular (toroid) Amperian loop.
+
+Q: A problem describes a finite-length wire or loop, or non-symmetric current. Should you use Ampère's law?
+A: No — Biot–Savart law instead. Ampère's law needs translational/rotational symmetry to reduce to one scalar.
+
+Q: A problem describes a current sheet (infinite plane). What technique?
+A: Ampère's law with a rectangular loop straddling the sheet (analogous to Gauss-pillbox for surface charge).
+
 ## 8.6 Field of a Toroid
 
 Q: Derive the field inside a toroid (a solenoid bent into a circle) with $N$ total turns carrying current $I$.

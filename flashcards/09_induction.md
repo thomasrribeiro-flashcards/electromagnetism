@@ -93,6 +93,20 @@ C: Time constant of an LR circuit: $\tau = [L/R]$, setting the exponential appro
 Q: What happens to the current when the battery in an LR circuit is suddenly replaced by a short?
 A: The inductor's stored energy $\frac{1}{2}LI^2$ must go somewhere. It continues to drive current through the resistor as the field collapses. The current decays exponentially: $I(t) = I_0\,e^{-t/\tau}$ with the same $\tau = L/R$. All the stored magnetic energy is eventually dissipated as heat in the resistor.
 
+## 9.9a Pattern Recognition: Induction Problems
+
+Q: A problem describes a fixed loop in a time-varying $\mathbf{B}$. What technique?
+A: Faraday's law: $\mathcal{E} = -d\Phi/dt$ with $\Phi = BA$ — only $B$ changes.
+
+Q: A problem describes a moving conductor in a static $\mathbf{B}$. What technique?
+A: Motional EMF: $\mathcal{E} = \int (\mathbf{v}\times\mathbf{B})\cdot d\mathbf{l}$, or equivalently $-d\Phi/dt$ with $\Phi$ changing through area.
+
+Q: A problem mentions current in an LR circuit "after switch closed." What technique?
+A: $I(t) = (\mathcal{E}/R)(1 - e^{-t/\tau})$ with $\tau = L/R$.
+
+Q: A problem says "find direction of induced current" without numbers. What technique?
+A: Lenz's law: induced current opposes the change in flux. Sketch flux direction, ask "is it growing or shrinking?", pick current direction that fights it.
+
 ## 9.10 Betatron Oscillation — P:/S:
 
 P: A circular loop of wire of radius $a$ and resistance $R$ is placed in a uniform time-dependent magnetic field $\mathbf{B}(t) = B_0\sin(\omega t)\,\hat{z}$, perpendicular to the loop. Find the induced EMF, the induced current, and the instantaneous power dissipated as a function of time. What is the time-averaged power dissipation?
