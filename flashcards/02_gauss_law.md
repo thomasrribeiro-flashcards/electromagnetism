@@ -106,8 +106,8 @@ A: Gauss's law with a coaxial cylindrical Gaussian surface (flux only through th
 Q: A problem describes an infinite plane or slab of charge. What technique?
 A: Gauss's law with a pillbox straddling the plane (flux only through the two faces).
 
-Q: A problem describes a finite, asymmetric charge distribution. Should you use Gauss's law?
-A: No — Gauss's law gives only one scalar equation; without symmetry it cannot solve for $\mathbf{E}$. Use Coulomb's law / superposition integral instead.
+Q: Why is Gauss's law not a useful tool for a finite, asymmetric charge distribution?
+A: It gives only one scalar equation; without symmetry it cannot solve for $\mathbf{E}$. Use Coulomb's law / the superposition integral instead.
 
 ## 2.10 Field Outside a Charged Sphere — P:/S:
 
