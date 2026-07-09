@@ -28,7 +28,7 @@ C: For isolated charge distributions, the reference is typically chosen at [infi
 Q: What is the relation between the electric field and the potential?
 A: $\mathbf{E} = -\nabla V$. The electric field is the negative gradient of the potential, pointing in the direction of steepest DECREASE of $V$. Equipotential surfaces are everywhere perpendicular to field lines.
 
-C: Electric field from potential: $\mathbf{E} = [-\nabla V]$; equipotential surfaces are [perpendicular] to field lines at every point.
+C: Electric field from potential: $\mathbf{E} = \lbrack -\nabla V\rbrack $; equipotential surfaces are [perpendicular] to field lines at every point.
 
 ## 3.3 Potential of a Point Charge
 

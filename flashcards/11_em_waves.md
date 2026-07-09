@@ -81,7 +81,7 @@ C: All electromagnetic radiation — from [radio waves] to [gamma rays] — diff
 Q: How does the EM wave equation change inside a linear medium with permittivity $\varepsilon$ and permeability $\mu$?
 A: Replace $\varepsilon_0 \to \varepsilon$ and $\mu_0 \to \mu$. The wave speed becomes $v = 1/\sqrt{\mu\varepsilon} = c/n$, where $n = \sqrt{\mu\varepsilon/(\mu_0\varepsilon_0)}$ is the index of refraction. Most non-magnetic materials have $\mu \approx \mu_0$, so $n \approx \sqrt{\varepsilon_r}$. The wave is slower than in vacuum and its wavelength is shorter by a factor of $n$ at the same frequency.
 
-C: In a linear medium, the speed of electromagnetic waves is $v = [c/n]$, where $n = \sqrt{\varepsilon_r\mu_r}$ is the [index of refraction].
+C: In a linear medium, the speed of electromagnetic waves is $v = \lbrack c/n\rbrack $, where $n = \sqrt{\varepsilon_r\mu_r}$ is the [index of refraction].
 
 Q: Why does the frequency of an electromagnetic wave stay constant when it crosses from vacuum into a denser medium, while its wavelength decreases?
 A: The boundary condition requires continuity of the oscillating fields at the interface — the two sides must "wave in phase" at every moment. Phase matching across the boundary means the temporal oscillation (frequency) is the same on both sides, but the spatial variation (wavelength) adjusts to the new wave speed. $v = f\lambda$ with $f$ fixed gives $\lambda_{\text{med}} = \lambda_0/n$.

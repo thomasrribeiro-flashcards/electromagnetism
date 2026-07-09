@@ -76,7 +76,7 @@ C: The electric field at perpendicular distance $s$ from an infinite line charge
 Q: What is the electric field from an infinite plane of surface charge density $\sigma$?
 A: $\mathbf{E} = \sigma/(2\varepsilon_0)\,\hat{n}$ on each side, pointing away from the plane (for positive $\sigma$). It is independent of distance — the field does not fall off with distance from an infinite plane, because the added charge at larger radii exactly compensates for the geometric spreading.
 
-C: The field of an infinite plane of uniform surface charge is $E = [\sigma/(2\varepsilon_0)]$, [independent of distance] from the plane.
+C: The field of an infinite plane of uniform surface charge is $E = \lbrack \sigma/(2\varepsilon_0)\rbrack $, [independent of distance] from the plane.
 
 Q: Why does the field of an infinite plane not fall off with distance, unlike the field of a point charge?
 A: For a point charge, flux spreads over a sphere of area $4\pi r^2$. For an infinite plane, the "cross-section" available for flux is fixed (the two parallel planes above and below), so spreading doesn't dilute the field. Mathematically, the infinite plane is the $L \to \infty$ limit where the geometry no longer spreads.

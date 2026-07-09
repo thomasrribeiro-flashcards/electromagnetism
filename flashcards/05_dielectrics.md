@@ -20,7 +20,7 @@ C: The [polarization] $\mathbf{P}$ of a dielectric is the dipole moment per unit
 Q: Why is polarization a useful macroscopic description of a medium containing vastly more atomic dipoles than we could track individually?
 A: At length scales much larger than an atom, the detailed arrangement of atomic dipoles averages out. What matters macroscopically is the LOCAL average dipole density $\mathbf{P}$, which is a smooth vector field that varies over laboratory length scales. This is the same philosophy as treating mass density $\rho$ instead of individual atomic masses.
 
-C: For a linear dielectric, the polarization is proportional to the local field: $\mathbf{P} = [\varepsilon_0\chi_e\mathbf{E}]$, where $\chi_e$ is the [electric susceptibility] of the material.
+C: For a linear dielectric, the polarization is proportional to the local field: $\mathbf{P} = \lbrack \varepsilon_0\chi_e\mathbf{E}\rbrack $, where $\chi_e$ is the [electric susceptibility] of the material.
 
 ## 5.3 Bound Charges
 
@@ -41,7 +41,7 @@ C: The electric [displacement field] is defined by $\mathbf{D} = \varepsilon_0\m
 Q: Why is the displacement field a more convenient object than $\mathbf{E}$ inside a dielectric?
 A: Gauss's law for $\mathbf{D}$ involves only the FREE charge density: $\nabla\cdot\mathbf{D} = \rho_f$. It ignores the bound charges — which are implicitly accounted for in $\mathbf{P}$. For problems where only the free charges are known (e.g., a capacitor with a dielectric slab), the $\mathbf{D}$-field version of Gauss's law can be solved directly without first computing the bound charges.
 
-C: Gauss's law for the displacement field: $\nabla\cdot\mathbf{D} = [\rho_f]$, where $\rho_f$ is the [free charge density] only.
+C: Gauss's law for the displacement field: $\nabla\cdot\mathbf{D} = \lbrack \rho_f\rbrack $, where $\rho_f$ is the [free charge density] only.
 
 Q: Why is $\mathbf{D}$ sometimes said to be "a bookkeeping device" rather than a fundamental field?
 A: Because the fundamental Maxwell-equations quantity is $\mathbf{E}$ — it is what a test charge feels. The displacement field $\mathbf{D}$ is a combination $\varepsilon_0\mathbf{E} + \mathbf{P}$ that happens to satisfy a simpler form of Gauss's law by absorbing the bound charges. It is extremely useful but carries no additional physical content beyond $\mathbf{E}$ and $\mathbf{P}$.
@@ -51,7 +51,7 @@ A: Because the fundamental Maxwell-equations quantity is $\mathbf{E}$ — it is 
 Q: What characterizes a linear dielectric, and how does $\mathbf{D}$ simplify in that case?
 A: In a linear dielectric, $\mathbf{P} = \varepsilon_0\chi_e\mathbf{E}$, so $\mathbf{D} = \varepsilon_0(1 + \chi_e)\mathbf{E} = \varepsilon\mathbf{E}$, where $\varepsilon = \varepsilon_0(1 + \chi_e)$ is the PERMITTIVITY. The ratio $\varepsilon_r = \varepsilon/\varepsilon_0 = 1 + \chi_e$ is the dimensionless relative permittivity (dielectric constant). Inside a linear dielectric, $\mathbf{D}$ is simply a scalar multiple of $\mathbf{E}$.
 
-C: In a linear dielectric: $\mathbf{D} = [\varepsilon\mathbf{E}]$, where $\varepsilon = \varepsilon_0(1 + \chi_e)$ is the [permittivity] of the medium.
+C: In a linear dielectric: $\mathbf{D} = \lbrack \varepsilon\mathbf{E}\rbrack $, where $\varepsilon = \varepsilon_0(1 + \chi_e)$ is the [permittivity] of the medium.
 
 C: The dimensionless [relative permittivity] (dielectric constant) is $\varepsilon_r = \varepsilon/\varepsilon_0$, equal to $1 + \chi_e$.
 

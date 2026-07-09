@@ -25,7 +25,7 @@ A: Gauss's law with $\mathbf{E} = 0$ inside gives $\rho = 0$ throughout the inte
 Q: Why must the electric field just outside a conductor be perpendicular to the surface?
 A: If $\mathbf{E}$ had a tangential component, free charges at the surface would feel a lateral force and slide along it — violating equilibrium. So only the normal component can be nonzero, and its magnitude is set by the local surface charge density.
 
-C: Just outside a conductor in equilibrium, the field is $\mathbf{E} = [\sigma/\varepsilon_0]\,\hat{n}$, where $\sigma$ is the local surface charge density and $\hat{n}$ is the outward [normal].
+C: Just outside a conductor in equilibrium, the field is $\mathbf{E} = \lbrack \sigma/\varepsilon_0\rbrack \,\hat{n}$, where $\sigma$ is the local surface charge density and $\hat{n}$ is the outward [normal].
 
 Q: Why is the field just outside a conductor $\sigma/\varepsilon_0$ rather than the $\sigma/(2\varepsilon_0)$ of an isolated charged plane?
 A: For an isolated plane, the field comes entirely from that plane and splits equally between the two sides, giving $\sigma/(2\varepsilon_0)$ on each. For a conductor, the interior field must cancel: the contribution from OTHER charges in the system exactly cancels the $\sigma/(2\varepsilon_0)$ from the local surface charge inside, and ADDS to it outside — giving $0$ inside and $\sigma/\varepsilon_0$ outside.

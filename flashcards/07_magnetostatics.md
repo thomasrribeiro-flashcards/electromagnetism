@@ -65,7 +65,7 @@ A: Because the magnetic field has a "handedness" — it circles the current dire
 Q: What is the magnetic field at a perpendicular distance $s$ from an infinite straight wire carrying current $I$?
 A: $\mathbf{B} = \frac{\mu_0 I}{2\pi s}\hat{\phi}$, where $\hat{\phi}$ circles the wire in the right-hand sense. The $1/s$ falloff matches the infinite-line charge electric field structurally, but the direction is azimuthal (around the wire) rather than radial (away from the line).
 
-C: Magnetic field of an infinite straight wire: $B = [\mu_0 I/(2\pi s)]$, with field lines forming [concentric circles] around the wire.
+C: Magnetic field of an infinite straight wire: $B = \lbrack \mu_0 I/(2\pi s)\rbrack $, with field lines forming [concentric circles] around the wire.
 
 ## 7.7 Field on the Axis of a Circular Loop
 

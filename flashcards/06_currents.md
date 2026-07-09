@@ -40,7 +40,7 @@ A: Setting $\partial\rho/\partial t = 0$ gives $\nabla\cdot\mathbf{J} = 0$. Phys
 Q: What is the microscopic form of Ohm's law?
 A: $\mathbf{J} = \sigma\mathbf{E}$, where $\sigma$ (here the conductivity, not surface charge) relates local current density to local electric field. The reciprocal $\rho = 1/\sigma$ is the resistivity. The law expresses a linear response: weak fields produce proportional currents, with a coefficient that depends on the material.
 
-C: Microscopic Ohm's law: $\mathbf{J} = [\sigma\mathbf{E}]$, where $\sigma$ is the [conductivity] of the material.
+C: Microscopic Ohm's law: $\mathbf{J} = \lbrack \sigma\mathbf{E}\rbrack $, where $\sigma$ is the [conductivity] of the material.
 
 Q: Why is Ohm's law a MATERIAL property rather than a fundamental law of nature?
 A: Because it describes how electrons interact with a lattice: they accelerate in the field but scatter off defects and phonons, reaching a steady drift velocity proportional to $\mathbf{E}$. For weak fields and typical materials, this balance gives linearity — but it breaks down for strong fields (hot-electron effects) and fails entirely for superconductors, semiconductors, and plasmas. Maxwell's equations remain valid in all these cases.
@@ -72,7 +72,7 @@ A: EMF is energy per unit charge supplied by a source — it has units of volts,
 Q: Why is the voltage across the terminals of a real battery less than its EMF when current is flowing?
 A: Real batteries have internal resistance $r$: the current $I$ flowing through the internal path drops $Ir$ of potential inside the battery. Terminal voltage $V = \mathcal{E} - Ir$ is therefore less than $\mathcal{E}$ whenever $I > 0$. At open circuit ($I = 0$), the terminal voltage equals the EMF exactly.
 
-C: Terminal voltage of a real battery: $V = [\mathcal{E} - Ir]$, where $r$ is the [internal resistance] and $I$ is the current drawn.
+C: Terminal voltage of a real battery: $V = \lbrack \mathcal{E} - Ir\rbrack $, where $r$ is the [internal resistance] and $I$ is the current drawn.
 
 ## 6.8 Kirchhoff's Laws
 
@@ -82,7 +82,7 @@ A: KCL: the sum of currents entering any node in a circuit equals the sum leavin
 Q: What does Kirchhoff's voltage law (KVL) state, and why does it hold for circuits?
 A: KVL: the sum of voltage drops around any closed loop is zero. It follows from $\nabla\times\mathbf{E} = 0$ (in electrostatic or quasi-static circuits): $\oint\mathbf{E}\cdot d\mathbf{l} = 0$. Stepping around a loop and adding up the potential changes recovers zero. For circuits with time-varying magnetic flux, KVL must be extended with Faraday's law.
 
-C: Kirchhoff's laws: KCL is the [steady-state continuity equation] applied to nodes, and KVL is $\oint\mathbf{E}\cdot d\mathbf{l} = [0]$ applied to loops.
+C: Kirchhoff's laws: KCL is the [steady-state continuity equation] applied to nodes, and KVL is $\oint\mathbf{E}\cdot d\mathbf{l} = \lbrack 0\rbrack $ applied to loops.
 
 ## 6.9 Resistors in Series and Parallel
 
