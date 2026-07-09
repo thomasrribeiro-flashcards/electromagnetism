@@ -1,5 +1,6 @@
 +++
 order = 6
+subject = "Physics"
 tags = ["electromagnetism", "current", "ohms-law", "emf", "continuity"]
 +++
 

@@ -1,5 +1,6 @@
 +++
 order = 7
+subject = "Physics"
 tags = ["electromagnetism", "magnetostatics", "lorentz-force", "biot-savart", "magnetic-field"]
 +++
 

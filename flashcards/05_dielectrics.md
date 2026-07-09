@@ -1,5 +1,6 @@
 +++
 order = 5
+subject = "Physics"
 tags = ["electromagnetism", "dielectrics", "polarization", "displacement-field", "bound-charge"]
 +++
 

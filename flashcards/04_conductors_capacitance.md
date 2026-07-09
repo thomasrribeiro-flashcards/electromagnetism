@@ -1,5 +1,6 @@
 +++
 order = 4
+subject = "Physics"
 tags = ["electromagnetism", "conductors", "capacitance", "image-charges", "boundary-conditions"]
 +++
 

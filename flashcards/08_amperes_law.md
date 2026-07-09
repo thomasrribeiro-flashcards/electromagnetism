@@ -1,5 +1,6 @@
 +++
 order = 8
+subject = "Physics"
 tags = ["electromagnetism", "amperes-law", "vector-potential", "solenoid", "curl"]
 +++
 

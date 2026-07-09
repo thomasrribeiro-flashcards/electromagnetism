@@ -1,5 +1,6 @@
 +++
 order = 11
+subject = "Physics"
 tags = ["electromagnetism", "waves", "poynting", "polarization", "radiation"]
 +++
 
