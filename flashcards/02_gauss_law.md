@@ -1,6 +1,6 @@
 +++
 order = 2
-subject = "Physics"
+subject = "physics"
 tags = ["electromagnetism", "gauss-law", "flux", "divergence", "symmetry"]
 +++
 

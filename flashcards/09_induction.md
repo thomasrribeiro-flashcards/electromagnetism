@@ -1,6 +1,6 @@
 +++
 order = 9
-subject = "Physics"
+subject = "physics"
 tags = ["electromagnetism", "induction", "faraday", "lenz", "inductance"]
 +++
 

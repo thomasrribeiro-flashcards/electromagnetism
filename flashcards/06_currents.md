@@ -1,6 +1,6 @@
 +++
 order = 6
-subject = "Physics"
+subject = "physics"
 tags = ["electromagnetism", "current", "ohms-law", "emf", "continuity"]
 +++
 

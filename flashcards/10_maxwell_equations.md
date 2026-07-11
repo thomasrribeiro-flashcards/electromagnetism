@@ -1,6 +1,6 @@
 +++
 order = 10
-subject = "Physics"
+subject = "physics"
 tags = ["electromagnetism", "maxwell-equations", "displacement-current", "boundary-conditions"]
 +++
 

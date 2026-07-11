@@ -1,6 +1,6 @@
 +++
 order = 1
-subject = "Physics"
+subject = "physics"
 tags = ["electromagnetism", "electrostatics", "coulomb", "electric-field", "superposition"]
 +++
 
